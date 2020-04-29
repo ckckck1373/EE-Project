@@ -50,6 +50,7 @@ def dynamic_quan(num_group, bit_width):
 
     int_bit = torch.ceil(torch.log2(max_val_abs) + 1)
     fractional_length = bit_width - int_bit
+    
     # use empirical ways to find best SQNR
     new_fra_length = find_best_sqnr(num_group, bit_width, fractional_length)
 
