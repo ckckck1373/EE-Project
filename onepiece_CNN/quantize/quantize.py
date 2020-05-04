@@ -19,9 +19,19 @@ import time
 import argparse
 import copy
 import os
-from lenet import *
+
+# from lenet import *
+from model import *
+#
 from data_setting import *
 from arg_setting import *
+
+# quantize settings
+# parser = argparse.ArgumentParser()
+# parser
+
+
+
 
 def test_accuracy(model, testloader):
     correct = 0
@@ -47,7 +57,7 @@ def dynamic_quan(num_group, bit_width):
         max_val_abs = num_min
 
     if max_val_abs <= 0.0001:
-        max_val_abs = torch.tensor(0.0001).cuda() ## why(?)
+        max_val_abs = torch.tensor(0.0001).cuda() ## clip?
 
     int_bit = torch.ceil(torch.log2(max_val_abs) + 1)
     fractional_length = bit_width - int_bit
