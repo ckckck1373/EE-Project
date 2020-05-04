@@ -29,9 +29,9 @@ def test_accuracy(model, testloader):
     for data in testloader:
         images, labels = data
         outputs = model(Variable(images.cuda()))
-        _, predicted = torch.max(outputs.data, 1)
+        _, predicted = torch.max(outputs.data, 1) # return every row's maximum element
         total += labels.size(0)
-        correct += (predicted == labels.cuda()).sum()
+        correct += (predicted == labels.cuda()).sum() # ?
     print('Accuracy of the network on the 10000 test images: %f %%' % (100 * correct.cpu().numpy() / total))
 
 # According to the max value to do the quantization 
@@ -46,11 +46,11 @@ def dynamic_quan(num_group, bit_width):
         max_val_abs = num_min
 
     if max_val_abs <= 0.0001:
-        max_val_abs = torch.tensor(0.0001).cuda()
+        max_val_abs = torch.tensor(0.0001).cuda() ## why(?)
 
     int_bit = torch.ceil(torch.log2(max_val_abs) + 1)
     fractional_length = bit_width - int_bit
-    
+
     # use empirical ways to find best SQNR
     new_fra_length = find_best_sqnr(num_group, bit_width, fractional_length)
 
