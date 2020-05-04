@@ -34,6 +34,7 @@ def test_accuracy(model, testloader):
         correct += (predicted == labels.cuda()).sum() # ?
     print('Accuracy of the network on the 10000 test images: %f %%' % (100 * correct.cpu().numpy() / total))
 
+
 # According to the max value to do the quantization 
 def dynamic_quan(num_group, bit_width):
     '''Quantize a group of numbers into [min, max] in bit_num bits of expression'''
