@@ -1,0 +1,145 @@
+ncsim(64) 15.20-s039
+Linux 2.6.32-754.12.1.el6.x86_64 #1 SMP Tue Apr 9 14:52:26 UTC 2019 x86_64
+CPU cores: 16
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		10240 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked	64 kbytes
+maxproc			1024
+======================================
+Runtime environment variables:
+LANG=en_US.UTF-8
+USER=u106011206
+LOGNAME=u106011206
+HOME=/home/u106/u106011206
+PATH=/usr/cad/cadence/INCISIV/cur/tools/bin/64bit:/usr/cad/synopsys/icc/cur/amd64/syn/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/bin/:/usr/cad/cadence/EDI/cur/tools/celtic/bin:/usr/cad/cadence/EDI/cur/tools/plato/bin:/usr/cad/cadence/EDI/cur/tools/dfII/bin:/usr/cad/cadence/EDI/cur/tools/fe/bin:/usr/cad/cadence/EDI/cur/tools/cdsdoc/bin:/usr/cad/cadence/EDI/cur/tools/bin:/usr/cad/cadence/EDI/cur//tools/tlfUtil/bin:/usr/cadtool/silvaco/bin:/usr/cadtool/jeroo/Jeroo.jar/:/usr/cadtool/mentor/tessent/cur/bin:/usr/cad/synopsys/sold/cur:/usr/cad/synopsys/processor_designer/cur/PD/linux/bin:/usr/cadtool/matlab/bin:/usr/cadtool/git/bin:/usr/cad/synopsys/finesim/cur/bin:/usr/cadtool/eclipse_2012/eclipse/:/usr/cad/synopsys/verdi/cur/bin:/usr/cad/synopsys/verdi/cur/nLint/bin:/usr/cad/synopsys/vcs-mx/cur/bin:/usr/cad/synopsys/vcs-mx/cur/linux/bin:/usr/cad/synopsys/vcs-mx/cur/linux/util:/usr/cad/synopsys/vcs-mx/cur/linux/flexlm:/usr/cad/synopsys/vcs/cur/bin:/usr/cad/synopsys/vcs/cur/linux/bin:/usr/cad/synopsys/vcs/cur/linux/util:/usr/cad/synopsys/vcs/cur/linux/flexlm:/usr/cad/synopsys/tmax/cur/bin:/usr/bin/X11:/usr/cad/synopsys/coreconsultant/cur/bin:/usr/cad/synopsys/synthesis/cur/amd64/syn/bin:/usr/cad/synopsys/lc/cur/bin:/usr/cadtool/cad/synopsys/spyglass/cur/SPYGLASS_HOME/bin:/usr/bin/X11:/usr/cad/synopsys/primetime/cur/amd64/syn/bin:/usr/bin/X11:/usr/cad/synopsys/primerail/cur/amd64/syn/bin:/usr/cad/synopsys/nanosim/cur/bin:/usr/cad/synopsys/nanosim/cur/linux/ns/bin:/usr/cad/synopsys/milkyway/cur/bin/AMD.64:/usr/cadtool/cad/synopsys/laker/cur/bin:/usr/cad/synopsys/icc2/cur/bin:/usr/cad/synopsys/icc/vH-2013.03-SP1/amd64/syn/bin:/usr/cad/synopsys/hsimplus/cur/hsimplus/bin:/usr/cad/synopsys/hercules/cur/bin/AMD.64:/usr/cad/synopsys/customexplorer/cur/bin:/usr/bin/X11:/usr/cadtool/cad/synopsys/coreconsultant/cur/bin:/usr/cad/mentor/Questa_Sim/cur/questasim/bin:/usr/cad/mentor/modelsim/cur/bin:/usr/cad/mentor/calibre/cur/bin:/usr/mentor/calibre/aoi_cal_2017.4_19.14/bin:/usr/cadtool/BRAINS/cur/bin:/usr/cadtool/cadence/STRATUS/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/usr/cadence/IC/cur/tools/dfII/bin:/usr/cadence/IC/cur/tools/dracula/bin:/usr/cadence/IC/cur/tools/bin:/usr/cad/cadence/IC/IC_06.17.709/tools/dfII/bin:/usr/cad/cadence/IC/IC_06.17.709/tools/dracula/bin:/usr/cad/cadence/IC/IC_06.17.709/tools/bin:/usr/cad/cadence/ETS/cur/tools/bin:/usr/cad/cadence/CTOS/cur/tools/bin:/usr/cadtool/cadence/CONFRML/cur/./bin:/usr/cadtool/cadence/CONFRML/cur/tools/bin:/usr/cad/cadence/ASSURA/cur/tools/assura/bin:/usr/cad/cadence/ASSURA/cur/tools/dsm/bin:/usr/cad/cadence/ASSURA/cur/tools/bin:/usr/cad/cadence/ASSURA/cur/tools/dfII/bin:/usr/bin/X11:/usr/cad/synopsys/primetime/cur/linux/syn/bin:/usr/local/bin:/bin:/usr/bin:/usr/cadtool/cad/synopsys/synthesis/lc/cur/bin:/usr/cadtool/cad/synopsys/synthesis/lc/cur/admin/install/lc/bin/:/usr/cadtool/cad/synopsys/dw_home/cur/bin:/usr/cadtool/Acrobat5/bin
+MAIL=/var/spool/mail/u106011206
+SHELL=/usr/bin/tcsh
+SSH_CLIENT=140.114.24.31 49803 22
+SSH_CONNECTION=140.114.24.31 49803 140.114.24.99 22
+SSH_TTY=/dev/pts/17
+TERM=xterm
+DISPLAY=localhost:12.0
+HOSTTYPE=x86_64-linux
+VENDOR=unknown
+OSTYPE=linux
+MACHTYPE=x86_64
+SHLVL=1
+PWD=/home/u106/u106011206/OnepieceSR/sim
+GROUP=u106
+HOST=ws45
+REMOTEHOST=daisy
+LM_LICENSE_FILE=1717@lsnctu:26585@lsnctu:5280@lscic:5280@lsncku:5280@lsnchu:5219@lsnctu:
+PRIMETIME=/usr/cad/synopsys/primetime/cur
+ASSURAHOME=/usr/cad/cadence/ASSURA/cur
+LD_LIBRARY_PATH=/usr/cad/spring_soft/verdi/2012.01/share/PLI/IUS/LINUX64
+VERPLEX_HOME=/usr/cadtool/cadence/CONFRML/cur
+OAHOME=/usr/cad/cadence/ETS/cur/oa
+OA_HOME=/usr/cad/cadence/EDI/cur/oa
+CDS_Netlisting_Mode=Analog
+CDS_AUTO_64BIT=ALL
+HOY_LIC_FILE=4141@lscic2.cic.org.tw
+MGC_HOME=/usr/cad/mentor/modelsim/cur
+MGC_TMPDIR=/tmp
+MGC_LOCATION_MAP=NO_MAP
+CALIBRE_HOME=/usr/cad/mentor/calibre/cur
+MTI_VCO_MODE=64
+SOFT_MAN_DIR=/usr/cadtool/cad/synopsys/coreconsultant/cur/doc/dware/man
+MANPATH=/usr/cad/synopsys/nanosim/cur/doc/ns/man:/usr/cadtool/cad/synopsys/coreconsultant/cur/doc/dware/man:/usr/cad/synopsys/synthesis/cur/doc/syn/man:/usr/spw/CDS/tools/man:/usr/spw/caesys/lmgr/man
+SYNOPSYS=/usr/cad/synopsys/icc/cur
+XLOCALEDIR=/usr/cad/synopsys/icc2/cur/etc/locale
+Laker_TCL_L3=1
+Laker_TCL_ToolBox=1
+SNPS_SIMIF=/usr/cad/synopsys/nanosim/cur
+PRIMERAIL=/usr/cad/synopsys/primerail/cur
+SG_HTML_BROWSER=/usr/bin/mozilla
+EDITOR=/usr/bin/vim
+SYNTHESIS=/usr/cad/synopsys/synthesis/cur
+SYN_MAN_DIR=/usr/cad/synopsys/synthesis/cur/doc/syn/man
+LC_HOME=/usr/cadtool/cad/synopsys/synthesis/lc/cur
+SYNOPSYS_TMAX=/usr/cad/synopsys/tmax/cur
+VCS_HOME=/usr/cad/synopsys/vcs-mx/cur
+VCS_CC=gcc
+SHLIB_PATH=/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64
+DESIGNWARE_HOME=/usr/cadtool/cad/synopsys/dw_home/cur
+FINESIM_HOME=/usr/cad/synopsys/finesim/cur
+FINESIM_64=1
+FINEWAVE_64=1
+POWERVIEW_64=1
+LISAHOME=/usr/cad/synopsys/processor_designer/cur/PD/linux
+SPW_HOME=/usr/spw
+SPW_SYS_DB=/usr/spw
+SFLM_SERVER=140.114.24.112
+ENCOUNTER=/usr/cad/cadence/EDI/cur/tools/fe
+HOSTNAME=ws45
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+CVS_RSH=ssh
+G_BROKEN_FILENAMES=1
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+KDEDIRS=/usr
+KDE_IS_PRELINKED=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+LOADEDMODULES=
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+QTLIB=/usr/lib64/qt-3.3/lib
+_IRUNROOT_=/usr/cad/cadence/INCISIV/cur/tools
+CDS_ARCH=lnx86
+NCRUNMODE=ncverilog:./INCA_libs/irun.lnx8664.15.20.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=ncverilog
+argv[1]=-f
+argv[2]=sim.f
+argv[3]=test_top.v
+argv[4]=./sram_model/sram_58101x1056b.v
+argv[5]=./sram_model/sram_24x864b.v
+argv[6]=./sram_model/sram_24x4b.v
+argv[7]=../hdl/top.v
+argv[8]=../hdl/conv_mul.v
+argv[9]=../hdl/conv_sum.v
+argv[10]=../hdl/counter.v
+argv[11]=../hdl/fsm.v
+argv[12]=../hdl/map_generator.v
+argv[13]=../hdl/row_col_ctl.v
+argv[14]=../hdl/sram_read_addr_ctl.v
+argv[15]=../hdl/sramB_write_ctl.v
+argv[16]=../hdl/write_LU_case.v
+argv[17]=../hdl/write_RU_case.v
+argv[18]=../hdl/write_LD_case.v
+argv[19]=../hdl/write_RD_case.v
+argv[20]=../hdl/padding_addr_ctl.v
+argv[21]=../hdl/resblock_forwarding.v
+argv[22]=+access+r
+125 profile - 100
+          CPU/Mem usage: 0.290 sys,  0.170 user,  628.50M sys,  0.00M vm
+126 VC callback profile - scalar:0 vector:0
+127 Sat May 23 12:20:22 2020
+128 pliAppInit
+129 pliAppMiscSet: New Sim Round
+130 LIBSSCORE=found /usr/cad/spring_soft/verdi/2012.01/share/PLI/IUS/LINUX64/libsscore_ius111.so through $LD_LIBRARY_PATH setting.
+131 Catch signal 11. Stack trace follows:
+#0  0x00000038414db7f0 in __read_nocancel () from /lib64/libc.so.6
+#1  0x0000003841471bc8 in _IO_new_file_underflow () from /lib64/libc.so.6
+#2  0x00000038414736ce in _IO_default_uflow_internal () from /lib64/libc.so.6
+#3  0x0000003841467daa in _IO_getline_info_internal () from /lib64/libc.so.6
+#4  0x0000003841466c09 in fgets () from /lib64/libc.so.6
+#5  0x00007ff8711e49f3 in ndpGetCallStack () from /usr/cad/spring_soft/verdi/2012.01/share/PLI/IUS/LINUX64/libsscore_ius111.so
+#6  0x00007ff871211a20 in pliAppDbg_SigHandler () from /usr/cad/spring_soft/verdi/2012.01/share/PLI/IUS/LINUX64/libsscore_ius111.so
+#7  0x00007ff8711e44f6 in catchSignalCB () from /usr/cad/spring_soft/verdi/2012.01/share/PLI/IUS/LINUX64/libsscore_ius111.so
+#8  <signal handler called>
+#9  0x0000000004aa07cc in ?? ()
+#10 0x0000000004aa07c0 in ?? ()
+#11 0x0000000000000000 in ?? ()
+132 Sim process exit

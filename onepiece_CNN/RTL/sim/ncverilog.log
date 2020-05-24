@@ -1,0 +1,171 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on May 23, 2020 at 12:20:20 CST
+ncverilog
+	-f sim.f
+		test_top.v
+		./sram_model/sram_58101x1056b.v
+		./sram_model/sram_24x864b.v
+		./sram_model/sram_24x4b.v
+		../hdl/top.v
+		../hdl/conv_mul.v
+		../hdl/conv_sum.v
+		../hdl/counter.v
+		../hdl/fsm.v
+		../hdl/map_generator.v
+		../hdl/row_col_ctl.v
+		../hdl/sram_read_addr_ctl.v
+		../hdl/sramB_write_ctl.v
+		../hdl/write_LU_case.v
+		../hdl/write_RU_case.v
+		../hdl/write_LD_case.v
+		../hdl/write_RD_case.v
+		../hdl/padding_addr_ctl.v
+		../hdl/resblock_forwarding.v
+		+access+r
+Loading snapshot worklib.test_top:v .................... Done
+*Novas* Loading libsscore_ius111.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/conv1_golden_bank0.dat".
+            File: ./test_top.v, line = 346, pos = 64
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/conv1_golden_bank1.dat".
+            File: ./test_top.v, line = 347, pos = 64
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/conv1_golden_bank2.dat".
+            File: ./test_top.v, line = 348, pos = 64
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/conv1_golden_bank3.dat".
+            File: ./test_top.v, line = 349, pos = 64
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/RES1_1_golden_bank0.dat".
+            File: ./test_top.v, line = 351, pos = 66
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/RES1_1_golden_bank1.dat".
+            File: ./test_top.v, line = 352, pos = 66
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/RES1_1_golden_bank2.dat".
+            File: ./test_top.v, line = 353, pos = 66
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/RES1_1_golden_bank3.dat".
+            File: ./test_top.v, line = 354, pos = 66
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/RES1_2_forward_golden_bank0.dat".
+            File: ./test_top.v, line = 356, pos = 74
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/RES1_2_forward_golden_bank1.dat".
+            File: ./test_top.v, line = 357, pos = 74
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/RES1_2_forward_golden_bank2.dat".
+            File: ./test_top.v, line = 358, pos = 74
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/RES1_2_forward_golden_bank3.dat".
+            File: ./test_top.v, line = 359, pos = 74
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/RES4_2_forward_golden_bank0.dat".
+            File: ./test_top.v, line = 361, pos = 74
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/RES4_2_forward_golden_bank1.dat".
+            File: ./test_top.v, line = 362, pos = 74
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/RES4_2_forward_golden_bank2.dat".
+            File: ./test_top.v, line = 363, pos = 74
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/RES4_2_forward_golden_bank3.dat".
+            File: ./test_top.v, line = 364, pos = 74
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/UP_1_golden_bank0.dat".
+            File: ./test_top.v, line = 366, pos = 62
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/UP_1_golden_bank1.dat".
+            File: ./test_top.v, line = 367, pos = 62
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/UP_1_golden_bank2.dat".
+            File: ./test_top.v, line = 368, pos = 62
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/UP_1_golden_bank3.dat".
+            File: ./test_top.v, line = 369, pos = 62
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/UP_2_golden_bank0.dat".
+            File: ./test_top.v, line = 371, pos = 62
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/UP_2_golden_bank1.dat".
+            File: ./test_top.v, line = 372, pos = 62
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/UP_2_golden_bank2.dat".
+            File: ./test_top.v, line = 373, pos = 62
+           Scope: test_top
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "golden/UP_2_golden_bank3.dat".
+            File: ./test_top.v, line = 374, pos = 62
+           Scope: test_top
+            Time: 0 FS + 0
+
+Checking padding in SRAM_B...
+Checking row 1...
+Checking row 2...
+Checking row 3...
+Checking col 1...
+Checking col 2...
+Checking col 3...
+Checking padding in SRAM_A...
+Checking row 1...
+Checking row 2...
+Checking row 3...
+Checking col 1...
+Checking col 2...
+Checking col 3...
+Padding of SRAM_A and SRAM_B are correct :)
+
+Checking CONV2...
+Correct :)
+
+Simulation complete via $finish(1) at time 107150295 NS + 4
+./test_top.v:1547     $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on May 23, 2020 at 12:25:38 CST  (total: 00:05:18)
